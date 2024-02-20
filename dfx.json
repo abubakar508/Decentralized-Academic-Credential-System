@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "credmotoko_backend": {
+      "main": "src/credmotoko_backend/main.mo",
+      "type": "motoko"
+    },
+    "credmotoko_frontend": {
+      "dependencies": [
+        "credmotoko_backend"
+      ],
+      "source": [
+        "src/credmotoko_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "credmotoko_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

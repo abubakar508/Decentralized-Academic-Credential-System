@@ -22,7 +22,3 @@ This project is a decentralized academic credential system built on the Internet
 ## Getting Started
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/academic-credential-system.git
-   cd academic-credential-system
